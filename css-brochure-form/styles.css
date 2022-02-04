@@ -1,0 +1,48 @@
+* {
+  font-family: "Brandon Grotesque", sans-serif;
+}
+
+h4 {
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: salmon;
+}
+
+form {
+  width: 42%;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin: 0 5px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  font-family: atlasGrotesk, sans-serif;
+}
+
+select {
+  width: 100%;
+  padding: 5px 0;
+  background-color: whitesmoke;
+}
+
+input[type="submit"] {
+  float: right;
+  margin-top: 10px;
+  padding: 5px;
+  width: 80px;
+  background-color: salmon;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
