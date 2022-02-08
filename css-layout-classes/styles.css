@@ -15,11 +15,15 @@
   width: 50%;
 }
 
-.column-three-quarters {
-  width: 75%;
-}
-
 .column-full,
 img {
   width: 100%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-two-thirds {
+  width: calc(200% / 3);
 }
