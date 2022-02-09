@@ -1,0 +1,42 @@
+body {
+  background-color: dodgerblue;
+}
+
+.container {
+  color: white;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+  margin: 0 10px;
+}
+
+header {
+  margin-top: 40px;
+}
+
+.image-container {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+img {
+  width: 50%;
+  padding-top: 20px;
+}
