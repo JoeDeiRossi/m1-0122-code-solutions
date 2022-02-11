@@ -31,5 +31,7 @@
 
 .overlay {
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
+  position: absolute;
   height: 300px;
+  width: 300px;
 }
