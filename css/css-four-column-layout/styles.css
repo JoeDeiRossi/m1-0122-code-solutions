@@ -1,0 +1,32 @@
+* {
+  font-family: Barlow, sans-serif;
+  text-align: center;
+  background-color: #f7f8fa;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+}
+
+.column-one-quarter {
+  width: 25%;
+}
+
+.phone {
+  width: 100%;
+}
+
+.icon {
+  width: 20%;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 10px;
+}
