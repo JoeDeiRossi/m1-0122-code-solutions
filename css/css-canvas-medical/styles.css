@@ -1,0 +1,79 @@
+.row {
+  display: flex;
+}
+
+.header {
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: darkgray;
+  font-family: Avenir, sans-serif;
+}
+
+.column-one-half {
+  width: 50%;
+}
+
+.page-title {
+  font-family: "Tiempos Headline", serif;
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #0b4265;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.contact-button {
+  padding: 10px;
+  background-color: #294464;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-family: Avenir, sans-serif;
+}
+
+hr {
+  height: 1px;
+  background-color: darkgray;
+  border: none;
+}
+
+.about {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.about-text {
+  margin: 50px;
+  line-height: 2rem;
+  color: white;
+}
+
+.about-text > * {
+  font-weight: 300;
+  font-family: "Tiempos Headline", serif;
+}
+
+.get-started-button {
+  background-color: #294464;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
