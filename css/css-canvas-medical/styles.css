@@ -16,6 +16,10 @@
   font-family: Avenir, sans-serif;
 }
 
+.column-full {
+  width: 100%;
+}
+
 .column-one-half {
   width: 50%;
 }
@@ -76,4 +80,60 @@ hr {
   border-radius: 5px;
   border: none;
   font-size: 16px;
+}
+
+.locations {
+  text-align: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  font-family: "Tiempos Headline", serif;
+  padding-bottom: 100px;
+}
+
+.locations h2 {
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+.locations p {
+  width: 40%;
+  margin: 0 auto 75px;
+}
+
+.locations-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.locations-list li {
+  flex-basis: 50%;
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+
+.learn-more {
+  font-family: "Tiempos Headline", serif;
+  flex-direction: column;
+  position: relative;
+}
+
+.learn-more div {
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.learn-more h2 {
+  font-weight: 300;
+}
+
+.learn-more p {
+  font-size: 14px;
+}
+
+.learn-more button {
+  position: absolute;
+  right: 100px;
+  top: 50%;
 }
