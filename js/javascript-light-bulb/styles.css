@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.bulb-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef9f1;
+}
+
+.bulb-container-dark {
+  background-color: #111;
+}
+
+.light-bulb {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #faea84;
+  border: none;
+}
+
+.light-bulb-dark {
+  background-color: #252525;
+}
