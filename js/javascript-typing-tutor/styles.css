@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.phrase {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.target {
+  border-bottom: 3px solid black;
+}
+
+.typed {
+  color: rgb(144 236 6);
+}
+
+.typo {
+  color: red;
+  border-color: red;
+}
